@@ -1,0 +1,126 @@
+.clr {clear: both;}
+body{width: 100%;font-family: 'Poppins', sans-serif;font-weight: 400;font-size: 1rem; -webkit-font-smoothing: antialiased; letter-spacing: 0.4px; line-height: 1.42857143;color: #1e2022;}
+img{max-width: 100%; height: auto;}
+h5, h6 , h1 , h2 , h3 , h4 {font-weight: normal;font-family: 'Poppins', sans-serif;}
+select::-ms-expand{display:none;}
+select{ -webkit-appearance:none; -moz-appearance:none;}
+dl, dt, dd, ol, ul, li {margin: 0;padding: 0;  list-style-type: none;}
+a:active , select , select:focus , a:focus , a:hover , input:focus , button:focus , textarea:focus {outline: none !important; text-decoration: none;}
+a , button{text-decoration: none;-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s; cursor: pointer;}
+option{padding: 10px;}
+::placeholder {color: #8c98a4 !important;opacity: 1;}
+:-ms-input-placeholder {color: #8c98a4 !important;}
+::-ms-input-placeholder {color: #8c98a4 !important;}
+textarea {resize: none;}
+.m-b-0{margin-bottom: 0 !important;}
+/*header section start here*/
+.header{box-shadow: 0 0px 10px rgba(0,0,0,0.15);padding: 15px 0;position: relative}
+.logo-section{float: left}
+.logo-section .main-logo {filter: brightness(10);}
+.menu-section{float: right;margin-top: 16px;}
+.menu-section li{display: inline-block;vertical-align: middle}
+.menu-diversion-line{display: inline-block;margin: 0 20px;padding-top: 3px;vertical-align: middle}
+.menu-section li a{color: #808080;font-family: 'Poppins', sans-serif;font-size: 16px;}
+.menu-section li a span{display: inline-block;vertical-align: middle}
+.cart-noti-here.active .cart-count-section{display: block}
+.cart-noti-here .cart-icon-img{height: 32px;width: 24px;text-align: center;background-image: url(../images/all-images.png);background-repeat: no-repeat;background-position: 0 -32px;position: relative;margin-left: 5px;background-size: 120px;}
+.cart-noti-here.active .cart-icon-img{background-position: 0 0;}
+.menu-section li a span.cart-count-section{height: 27px;width: 27px;border-radius: 50%;background: #f64957;font-size: 15px;color: #ffffff;font-family: 'Poppins', sans-serif;font-weight: 600;position: absolute;top: -10px;right: -12px;border: 3px solid #ffffff;display: none}
+.home-middle-section{background-image: url(../images/home-background-img.png);background-repeat: no-repeat;background-size: cover;background-position: top left;}
+/*header section end here*/
+
+
+/*landing page section*/
+
+.header-home.landing-head .header { box-shadow: none;  padding: 19px 0px;}
+.menu-section li a.free-meals {height: 52px;background-color: #f64957; display: flex; text-align: center; padding: 0 16px;align-items: center;justify-content: center; border-radius: 5px; color: #fff; font-size: 15px; font-weight: 500; border: 1px solid #f64957;}
+/*.menu-section li a.free-meals:hover{background-color: transparent; color: #f64957;}*/
+.menu-section li a.free-meals.referrals-track {background-color:  #fff; color: #f64957; margin-left: 15px;}
+.menu-section li a.free-meals.referrals-track:hover{background-color:#f64957; color: #fff; }
+.header-home.landing-head .menu-section { margin-top: 2px;}
+
+.email-section .search-bx {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.email-section {
+    margin-top: 50px;
+}
+
+
+.header-banner{background-image: url(../images/banner-img.jpg); background-repeat: no-repeat; background-size: cover;padding-bottom: 100px;margin-bottom: 30px}
+.sml-title {font-size: 13px;width: 100%;color:#565656;font-weight: 300;margin-top: 7px;max-width: 560px;line-height: 23px;}
+.awesome-benefits-section h2 {font-size: 30px; color: #232323;font-weight: 500; margin-bottom: 26px;}
+.benefits-txt-bx h3 { font-size: 20px; font-weight: 600; color: #000333; margin-top: 18px; margin-bottom: 10px;} 
+.benefits-txt-bx p{font-size: 15px;  color: #565656; font-weight: 300;}
+.footer-sectoin { background-color:  #f64957; padding: 10px 0;}
+.social-bx{display: inline-block;}
+.social-bx a { height: 36px;width: 36px;background-color: #fff;display: block;border-radius: 50px;text-align: center;line-height: 36px;color:#f64957;}
+.social-bx a:hover{background-color: #bc2c38; color: #fff;}
+.social-bx li{display: inline-block; margin-left: 6px;}
+.footer-name {display: inline-block; color:#fff;font-family: 'Poppins', sans-serif;font-weight: 600;}
+.social-and-foods { float: right; margin-top: 8px;}
+.footer-logo { float: left;}
+.hiro-banner-section{position: relative; /*background-image: url(../images/banner-img.png); background-repeat: no-repeat; background-position: right -40px;background-size: 50%;height: 510px;*/  }
+.hiro-box h2 { font-size: 45px; max-width: 520px; width: 100%; line-height:54px; color:#fff; letter-spacing: 0; font-weight: 700;}
+.hiro-logo {width: 100px;     padding-top: 20px;}
+.hiro-box p {font-size: 19px;width: 100%;color:#fff;    font-weight: 400;    margin-top: 6px;    max-width: 580px;    line-height: 29px;    margin-bottom: 27px;}
+.hiro-box { margin-top:70px;}
+.search-bx input { height: 46px; max-width:340px; width: 100%;border-radius: 5px; border: 1px solid  #9c9c9c; display: inline-block; vertical-align: middle; padding: 0 15px; font-size: 15px;}
+.get-meal-btn a{height: 46px;background-color:#f64957;display: block;text-align: center;padding: 0 15px;line-height:46px;border-radius: 5px;color:#fff;font-size: 16px;font-weight: 500;border: 1px solid #f64957; width: 100%; display: inline-block; vertical-align: middle; margin-left: 5px;}
+.get-meal-btn {display: inline-block; max-width: 170px;width: 100%;}
+.benefits-bx { margin-bottom: 30px;}
+/*.get-meal-btn a:hover{background-color: transparent; color: #f64957;}*/
+.container { max-width: 1200px;}
+.free-deal {  height: 46px; background-color: #f64957;padding: 0 15px;line-height: 46px;border-radius: 5px;color:#fff;font-size: 16px;font-weight: 500;border: 1px solid #f64957; width: 100%; display: block;    vertical-align: middle; max-width: 200px;margin: 0 auto;text-align: center; margin-top: 20px;}
+.free-deal:hover{color: #fff;}
+
+.marginhe{margin: 50px 0}
+.email-section h2 { line-height: 1.5;font-size: 20px;font-weight: 600;text-align: center; margin-top: 10px;}
+
+/*landing page section*/
+
+@media all and (max-width:1440px){
+    .hiro-banner-section{height: 400px;}
+}
+
+
+
+
+
+@media all and (max-width:1199px){
+    .container{max-width: 100%;}
+}
+
+
+@media all and (max-width:991px){
+.hiro-box h2 { max-width: 520px;width: 100%;line-height: 50px;letter-spacing: 0;font-size: 40px;font-weight: 500;}
+    .hiro-box p{font-size: 15px; max-width: 540px; line-height: 25px;}
+    
+    
+    }
+    
+
+@media all and (max-width:767px){
+    .hiro-banner-section{background-image: none; height: auto;}
+    .hiro-box{margin-bottom: 60px; margin-top: 20px;}
+    .search-bx input{max-width: 100%;}
+    .get-meal-btn {display: block;text-align: right;margin-top: 20px;}
+    
+    
+    
+    
+}
+
+
+
+@media all and (max-width:480px){
+    .menu-section{float: none;}
+    .menu-section li{width: 49%;}
+    .menu-section li a.free-meals{padding: 5px 0; width: 100%; font-size: 12px; }
+    .menu-section li a.free-meals.referrals-track{margin: 0px; padding: 5px 20px;}
+    .logo-section { float: none;}
+    .header-home.landing-head .menu-section { margin-top: 20px;}
+}
+

@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900);
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Normal Color*/
+/*Border radius*/
+/*Preloader*/
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+}
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+}
+/*Just change your choise color here its theme Colors*/
+body {
+  background: #fff;
+}
+.top-left-part {
+  background: #f83e3f;
+}
+.top-left-part .dark-logo {
+  display: none;
+}
+.top-left-part .light-logo {
+  display: inline-block;
+  width: 100%;
+}
+/*Top Header Part*/
+.logo i {
+  color: #ffffff;
+}
+.navbar-header {
+  background: #2f323e;
+}
+.navbar-top-links > li > a {
+  color: #ffffff;
+}
+.sidebar .sidebar-head {
+  background: #ffffff;
+}
+.sidebar .sidebar-head h3 {
+  color: #686868;
+}
+/*Right panel*/
+.right-sidebar .rpanel-title {
+  background: #cc202e;
+}
+/*Bread Crumb*/
+.bg-title .breadcrumb .active {
+  color: #cc202e;
+}
+/*Sidebar*/
+.sidebar {
+  background: #fff;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.sidebar .label-custom {
+  background: #01c0c8;
+}
+
+#side-menu li a {
+  color: #1a1f25;
+  border-left: 0px solid #fff;
+   border-bottom: 1px solid #cfd3d6;
+}
+#side-menu li a i{color: #54667a;}
+#side-menu li a:hover i, #side-menu > li > a.active i{color: #f83e3f;}
+#side-menu > li > a {font-size: 13px;
+  border-left: 3px solid transparent;
+  font-weight: 400;
+}
+#side-menu > li > a:hover,
+#side-menu > li > a:focus {
+  color: #cc202e;
+  background: rgba(0, 0, 0, 0.07);
+}
+#side-menu > li > a.active {
+  background: rgba(0, 0, 0, 0.07);
+  color: #f83e3f;
+  border-left: 3px solid #f83e3f;
+  /*font-weight: 500;*/
+}
+#side-menu ul > li > a:hover {
+  color: #cc202e;
+}
+#side-menu ul > li > a.active {
+  color: #54667a;
+  font-weight: 500;
+}
+.user-profile .user-pro-body .u-dropdown {
+  color: #54667a;
+}
+/*themecolor*/
+.bg-theme {
+  background-color: #707cd2 !important;
+}
+.bg-theme-dark {
+  background-color: #cc202e !important;
+}
+/*Button*/
+.btn-custom {
+  background: #cc202e;
+  border: 1px solid #cc202e;
+  color: #ffffff;
+}
+.btn-custom:hover {
+  background: #cc202e;
+  opacity: 0.8;
+  color: #ffffff;
+  border: 1px solid #cc202e;
+}
+/*Custom tab*/
+.customtab li.active a,
+.customtab li.active a:hover,
+.customtab li.active a:focus {
+  border-bottom: 2px solid #cc202e;
+  color: #cc202e;
+}
+.tabs-vertical li.active a,
+.tabs-vertical li.active a:hover,
+.tabs-vertical li.active a:focus {
+  background: #cc202e;
+  border-right: 2px solid #cc202e;
+}
+/*Nav-pills*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background: #cc202e;
+  color: #ffffff;
+}
+/*Extra css*/
+.bg-theme {
+  background-color: #cc202e !important;
+}
+.panel-themecolor,
+.panel-theme {
+  border-color: #cc202e;
+}
+.panel-themecolor .panel-heading,
+.panel-theme .panel-heading {
+  border-color: #cc202e;
+  color: white;
+  background-color: #cc202e;
+}
+.panel-themecolor .panel-heading a,
+.panel-theme .panel-heading a {
+  color: #ffffff;
+}
+.panel-themecolor .panel-heading a:hover,
+.panel-theme .panel-heading a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.panel-themecolor a,
+.panel-theme a {
+  color: #cc202e;
+}
+.panel-themecolor a:hover,
+.panel-theme a:hover {
+  color: #0791e6;
+}

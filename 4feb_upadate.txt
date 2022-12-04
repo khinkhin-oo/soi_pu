@@ -1,0 +1,17 @@
+Hello Sir,
+
+Good Evening!
+
+Today I worked on the following ,
+
+
+Sr No|             Task Name | Task Description                                               |         Working Hrs        | Task Status (Done / Pending)    
+
+  1  -     Multiple Images uploading                                                                      2Hr                     Done
+
+  2  -    Multiple Images Edit (update)                                                                   1Hr 30 Min              Done
+
+  3  -    Specific Image Remove(image removed but not specified image removed)working on that             4Hr                    Not Done        
+
+Thanks & Regards ,
+Akshay Ugale 

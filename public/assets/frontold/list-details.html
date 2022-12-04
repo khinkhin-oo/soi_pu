@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <title>Somtam</title>
+    <!-- ======================================================================== -->
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--font-awesome-css-start-here-->
+    <link rel="stylesheet" href="css/fontawesome-v5.7.2-pro.min.css" />
+    <!--Custom Css-->
+    <link href="css/somtam.css" rel="stylesheet" type="text/css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!--Main JS-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="black-div-section"></div>
+    <div class="container-change-section">
+        <div class="header header-home" id="header">
+            <div class="logo-section-main-block">
+                <div class="logo-section">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="" class="main-logo" />                
+<!--                        <img src="images/responsive-logo.png" alt="" class="responsive-logo" />-->
+                    </a>
+                </div>
+                <div class="login-register-section">
+                    <div class="help-register-section">
+                        <ul>
+                            <li><a href="javascript:void(0);">Help</a></li>
+                            <li class="responsive-show-menu"><a href="javascript:void(0);">login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                        </ul>
+                    </div>
+                    <div class="login-form-seciton">
+                        <a href="javascript:void(0)" class="closebtnlogin">&times;</a>
+                        <div class="login-head-seciton">
+                            Login
+                        </div>
+                        <div class="form-group">
+                            <div class="group-form-group">
+                                <input type="text" name="user name" placeholder="User Name" class="form-control" />
+                            </div>
+                            <div class="check-box">                            
+                                <input id="filled-in-box" class="filled-in" type="checkbox">
+                                <label for="filled-in-box">Remember Me</label>                            
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="group-form-group">
+                                <input type="password" name="Password" placeholder="Password" class="form-control" />
+                            </div>
+                            <div class="forgot">
+                                <a href="javascript:void(0);">Forgot Password?</a>
+                            </div>  
+                        </div>
+                        <div class="form-group login-form-btn-seciton">
+                            <button type="submit" class="login-form-btn">Login</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <div class="container-change-section">
+            <ul class="mySidenav-section" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn">&times;</a>
+                <li class="responsive-show-section">
+                    <img src="images/logo.png" alt="" />
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="register.html">Register</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Advertise</a>
+                </li>
+                <li>
+                    <a href="login.html">What's New?</a>
+                </li>                
+            </ul>
+            <span class="menu-icon" onclick="openNav()">&#9776;</span>
+<!--
+            <div class="advance-search-section-main">
+                <div class="advance-search-label-section">
+                    Advanced Search
+                </div>
+                <div class="advance-search-input-section">
+                    <input type="text" name="search" placeholder="Search your product" />
+                    <button type="submit"><img src="images/searcg-icon.png" alt="" /></button>
+                </div>
+                <div class="forum-buttom-section">
+                    <a href="javascript:void(0);">Forum</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+-->
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="middle-section-gray">
+        <div class="container">  
+            <div class="download-puffin-browser-add">
+                <a href="javascript:void(0);"><img src="images/browser-icon.png" alt="" /> Click here to download puffin browser for full access of website! </a>
+            </div>            
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <div class="product-details-slider">
+                        <div class="swiper-container gallery-thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/modal1.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal2.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal3.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal4.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal5.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal6.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal7.jpg" alt="" />
+                                </div>     
+                                <div class="swiper-slide">
+                                    <img src="images/modal8.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-container gallery-top">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/modal1.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal2.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal3.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal4.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal5.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal6.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/modal7.jpg" alt="" />
+                                </div>     
+                                <div class="swiper-slide">
+                                    <img src="images/modal8.jpg" alt="" />
+                                </div>                        
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"><i class="fal fa-angle-right"></i></div>
+                            <div class="swiper-button-prev swiper-button-white"><i class="fal fa-angle-left"></i></div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <div class="product-details-information-section">
+                        <div class="modal-name-information">
+                            <div class="modal-name-seciton">
+                                rayo
+                            </div>
+                            <div class="country-name-seciton">
+                                <span>korea </span>
+<!--
+                                <span class="contact-with-seciton">
+                                    <span><i class="fas fa-phone-square"></i></span>
+                                    <span><i class="fab fa-whatsapp-square"></i></span>
+                                    <span><i class="fab fa-weixin"></i></span>
+                                    <span><i class="fab fa-line"></i></span>
+                                    <span class="chat-label-seciton">chat with</span>
+                                </span>
+-->
+                            </div>
+                        </div>
+                        <div class="rate-section-main">
+                            <div class="rate-section">
+                                $600/1/60
+                            </div>
+                            <div class="available-time-seciton">
+                                <div class="available-head">
+                                    Age : 
+                                </div>
+                                <div class="available-time">
+                                    25
+                                </div>
+                            </div>
+                            <div class="available-time-seciton">
+                                <div class="available-head">
+                                    Body Size : 
+                                </div>
+                                <div class="available-time">
+                                   Natural
+                                </div>
+                            </div>
+                            <div class="available-time-seciton">
+                                <div class="available-head">
+                                    Available : 
+                                </div>
+                                <div class="available-time">
+                                    12pm to 10pm
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-seciton-main">
+                            <div class="contact-info-head">
+                                Service :
+                            </div>
+                            <div class="service-seciton-contnet">
+                                <ul>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service <span>Depends</span></li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                    <li>service</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact-info-section-main">
+                            <div class="contact-info-head">
+                                Contact Info
+                            </div>
+                            <div class="contact-info-section">   
+                                <div class="available-time-seciton">
+                                    <div class="available-head">
+                                        Phone : 
+                                    </div>
+                                    <div class="available-time">
+                                        <a href="tel:+821068905485">+821068905485</a>                                        
+                                        <!--<a href="<? echo ($detect->isMobile()) ? 'tel' : 'callto'; ?> :+821068905485">+821068905485</a>-->
+                                    </div>
+                                </div>
+                                <div class="available-time-seciton">
+                                    <div class="available-head">
+                                        Wechat : 
+                                    </div>
+                                    <div class="available-time">
+                                        None
+                                    </div>
+                                </div>
+                                <div class="available-time-seciton">
+                                    <div class="available-head">
+                                        Line : 
+                                    </div>
+                                    <div class="available-time">
+                                        None
+                                    </div>
+                                </div>
+                                <div class="available-time-seciton">
+                                    <div class="available-head">
+                                        Whatsapp : 
+                                    </div>
+                                    <div class="available-time">
+                                        <a href="https://api.whatsapp.com/send?phone=+821068905485">+821068905485</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="latest-models-section-main leave-replay-main-section">                
+                <div class="ads-banners-seciton-head">
+                    Leave a Reply
+                </div>
+                <div class="no-login-section">
+                    <span><a href="javascript:void(0);">You must be logged in</a> to post a comment.</span>
+                </div>
+                <div class="leave-reply-form-section">
+                    <div class="form-group">
+                        <input type="text" name="user name" placeholder="User Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Message" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group login-form-btn-seciton">
+                        <button type="submit" class="login-form-btn">Login</button>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-models-section-main">
+                <div class="ads-banners-seciton-head">
+                    Latest Models
+                </div>
+                <div class="swiper-container latest-models">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);" class="profiles-section-block">
+                                <div class="profiles-section-block-inner">
+                                    <div class="profile-img-section">
+                                        <img src="images/profile-img-1.jpg" alt="" />
+                                    </div>
+                                    <div class="profile-name-seciton-block">
+                                        <i class="fas fa-star star-left-section"></i> 
+                                        <span class="scroll1">
+                                            <span>Korean Flavour</span>
+<!--                                            <span>Korean Flavour</span>-->
+                                        </span> 
+                                        <i class="fas fa-star star-right-section"></i>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="proile-information-seciton-main">
+                                        <div class="profile-country-name">
+                                            Lax
+                                        </div>
+                                        <div class="proile-information-seciton">
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Model Name:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    ECON
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Country:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    vietnam
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Price:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    300
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    location:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    rama1
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);" class="profiles-section-block">
+                                <div class="profiles-section-block-inner">
+                                    <div class="profile-img-section">
+                                        <img src="images/profile-img-2.jpg" alt="" />
+                                    </div>
+                                    <div class="profile-name-seciton-block">
+                                        <i class="fas fa-star star-left-section"></i> <span class="scroll1">
+                                            <span>Korean Flavour</span>
+<!--                                            <span>Korean Flavour</span>-->
+                                        </span> <i class="fas fa-star star-right-section"></i>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="proile-information-seciton-main">
+                                        <div class="profile-country-name">
+                                            Rainbowmodels
+                                        </div>
+                                        <div class="proile-information-seciton">
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Model Name:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    BABE
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Country:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    vietnam
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Price:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    300
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    location:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    rama1
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);" class="profiles-section-block">
+                                <div class="profiles-section-block-inner">
+                                    <div class="profile-img-section">
+                                        <img src="images/profile-img-3.jpg" alt="" />
+                                    </div>
+                                    <div class="profile-name-seciton-block">
+                                        <i class="fas fa-star star-left-section"></i> <span class="scroll1">
+                                            <span>Korean Flavour</span>
+<!--                                            <span>Korean Flavour</span>-->
+                                        </span> <i class="fas fa-star star-right-section"></i>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="proile-information-seciton-main">
+                                        <div class="profile-country-name">
+                                            Sgdolly
+                                        </div>
+                                        <div class="proile-information-seciton">
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Model Name:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    BON
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Country:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    vietnam
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Price:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    300
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    location:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    rama1
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);" class="profiles-section-block">
+                                <div class="profiles-section-block-inner">
+                                    <div class="profile-img-section">
+                                        <img src="images/profile-img-4.jpg" alt="" />
+                                    </div>
+                                    <div class="profile-name-seciton-block">
+                                        <i class="fas fa-star star-left-section"></i> <span class="scroll1">
+                                            <span>Korean Flavour</span>
+<!--                                            <span>Korean Flavour</span>-->
+                                        </span> <i class="fas fa-star star-right-section"></i>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="proile-information-seciton-main">
+                                        <div class="profile-country-name">
+                                            Emmanuelle
+                                        </div>
+                                        <div class="proile-information-seciton">
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Model Name:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    MIKI
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Country:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    vietnam
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Price:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    300
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    location:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    rama1
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);" class="profiles-section-block">
+                                <div class="profiles-section-block-inner">
+                                    <div class="profile-img-section">
+                                        <img src="images/profile-img-5.jpg" alt="" />
+                                    </div>
+                                    <div class="profile-name-seciton-block">
+                                        <i class="fas fa-star star-left-section"></i> <span class="scroll1">
+                                            <span>Korean Flavour</span>
+<!--                                            <span>Korean Flavour</span>-->
+                                        </span> <i class="fas fa-star star-right-section"></i>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="proile-information-seciton-main">
+                                        <div class="profile-country-name">
+                                            Koreal
+                                        </div>
+                                        <div class="proile-information-seciton">
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Model Name:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    RAYO
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Country:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    vietnam
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Price:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    300
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    location:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    rama1
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);" class="profiles-section-block">
+                                <div class="profiles-section-block-inner">
+                                    <div class="profile-img-section">
+                                        <img src="images/profile-img-6.jpg" alt="" />
+                                    </div>
+                                    <div class="profile-name-seciton-block">
+                                        <i class="fas fa-star star-left-section"></i> <span class="scroll1">
+                                            <span>Korean Flavour</span>
+<!--                                            <span>Korean Flavour</span>-->
+                                        </span> <i class="fas fa-star star-right-section"></i>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="proile-information-seciton-main">
+                                        <div class="profile-country-name">
+                                            Lax
+                                        </div>
+                                        <div class="proile-information-seciton">
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Model Name:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    ECON
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Country:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    vietnam
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    Price:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    300
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="proile-information-box">
+                                                <div class="proile-information-box-head">
+                                                    location:
+                                                </div>
+                                                <div class="proile-information-box-text">
+                                                    rama1
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>                    
+                    </div>
+                    <!-- Add Arrows -->                    
+                    <div class="swiper-button-next"><i class="fal fa-angle-right"></i></div>
+                    <div class="swiper-button-prev"><i class="fal fa-angle-left"></i></div>
+                </div>
+            </div>            
+        </div> 
+    </div>
+    <div class="footer-seciton">
+        <div class="container-change-section">
+            <div class="footer-logo-seciton">
+                <img src="images/logo.png" alt="" />
+            </div>
+            <div class="footer-menu-section">
+                <ul>
+                    <li><a href="javascript:void(0)">Home</a></li>
+                    <li><a href="javascript:void(0)">Register</a></li>
+                    <li><a href="javascript:void(0)">Advertise</a></li>
+                    <li><a href="javascript:void(0)">What's New?</a></li>
+                    <li><a href="javascript:void(0)">Login</a></li>
+                </ul>
+            </div>
+            <div class="copyright-txt">
+                Copy Rights &copy; 2020 All Rights Reserved.
+            </div>
+        </div>
+    </div>
+    
+<!--    <script src="js/infiniteslidev2.js"></script>    -->
+    <script src="js/swiper.min.js"></script>
+<!--
+    <script type="text/javascript">
+        $(function() {
+            $('.scroll1').infiniteslide({
+                speed: 30,
+            });
+        });
+    </script>  
+-->
+    <!-- Initialize Swiper -->
+    <script>
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            direction: 'vertical',
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            breakpoints: {                
+                991: {
+                  slidesPerView: 4                  
+                },
+            }
+        });
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            thumbs: {
+                swiper: galleryThumbs
+            }
+        });
+        var swiper = new Swiper('.latest-models', {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {                
+                991: {
+                  slidesPerView: 3
+                },
+                767: {
+                  slidesPerView: 2
+                },
+                385: {
+                  slidesPerView: 1
+                },
+            }
+        });
+    </script>  
+    
+    
+    <script>
+        $(".advance-search-label-section").on("click", function(){
+            $(".advance-search-section-main").toggleClass("searchactive");
+        });
+    </script>
+    
+    <script>
+        $(".responsive-show-menu").on("click", function(){
+            $("body").addClass("login-open");
+        });
+        $(".closebtnlogin").on("click", function(){
+            $("body").removeClass("login-open");
+        })
+    </script>
+    
+    <script>
+        $(".menu-icon").on("click", function(){
+            $("body").addClass("menu-active");
+        });
+        $(".closebtn").on("click", function(){
+            $("body").removeClass("menu-active");
+        })
+    </script>  
+    
+    
+</body>
+
+</html>

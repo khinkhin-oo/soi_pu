@@ -1,0 +1,230 @@
+.footer-sec {
+    width: 100%;
+    /* background: linear-gradient(
+        to right,red, brown
+
+    ); */
+
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 200, 225, 0.7),
+        rgba(117, 19, 93, 0.73)
+    );
+
+
+    color: #fff;
+    padding-top: 10px;
+}
+.footer-sec h3 {
+    padding: 0;
+    margin: 0;
+}
+.footer-sec p {
+    font-size: 12px;
+    line-height: 17px;
+}
+.copyright .container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright .container-fluid span {
+    color: red;
+}
+
+.banner_sec {
+    width: 100%;
+    background: linear-gradient(
+            to top,
+            rgba(245, 246, 252, 0.52),
+            rgba(117, 19, 93, 0.73)
+        ),
+        url("../../theme/images/banner3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner_text_box {
+    width: 100%;
+    /* background: red; */
+}
+.banner_search_box {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+
+    position: relative;
+}
+#bn_search {
+    width: 100%;
+    height: 100%;
+
+    padding: 0 12px;
+
+    border-radius: 0;
+    border: none;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#bn_search:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.bn_search_icon {
+    width: 10%;
+    height: 100%;
+    color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bn_search_icon i {
+    font-size: 20px;
+}
+.banner_tag_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_tags {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0 5px;
+    margin: 0 5px;
+    box-shadow: 0 2px 2px #fff;
+}
+.banner_tags:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.advertise_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.advertise a {
+    /* border: none; */
+    text-decoration: none;
+}
+.adv_img_box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+
+    position: relative;
+}
+.adv_img_box .adv_img {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.adv_text {
+    color: #fff;
+    text-align: center;
+}
+
+/* Start Model */
+.model-container{
+    background: #f4f4f4;
+    box-shadow: 2px 5px 10px grey;
+
+    margin: 8px;
+}
+.model-container-img{
+    width: 100%;
+    height: 400px;
+
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+
+}
+.pagination{
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* End Model */
+.caption{
+    font-weight: bold;
+    cursor: default;
+    user-select: none;
+}
+.sex_article_title {
+    color: rgb(217, 32, 114);
+    font-weight: bold;
+    cursor: default;
+    user-select: none;
+}
+.article_box_container {
+    width: 100%;
+    height: 159px;
+    max-height: 159px;
+}
+.article_box {
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.article_text {
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    font-weight: bold;
+    padding-right: 1px;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.article_text_p2{
+    font-size: 12px;
+}
+.artile_image {
+    width: 30%;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.artile_image img {
+    padding-right: 5px;
+    width: 100%;
+    height: 159px;
+}
+#sex_article .seemore_btn {
+    background: linear-gradient(to left, rgb(217, 32, 114), red);
+    color: #fff;
+    margin: 20px 0;
+
+    transition: background 0.5s;
+}
+#sex_article .seemore_btn:hover {
+    background: linear-gradient(to right, rgb(217, 32, 114), red);
+}
+.pagination li{
+    margin: 0 5px;
+    /* text-decoration: none; */
+    border: none;
+}

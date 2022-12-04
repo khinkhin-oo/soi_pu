@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <title>Registration</title>
+    <!-- ======================================================================== -->
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--font-awesome-css-start-here-->
+    <link rel="stylesheet" href="css/fontawesome-v5.7.2-pro.min.css" />
+    <!--Custom Css-->
+    <link href="css/somtam.css" rel="stylesheet" type="text/css" />
+    <!--Main JS-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="black-div-section"></div>
+    <div class="container-change-section">
+        <div class="header header-home" id="header">
+            <div class="logo-section-main-block">
+                <div class="logo-section">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="" class="main-logo" />                
+                        <img src="images/responsive-logo.png" alt="" class="responsive-logo" />
+                    </a>
+                </div>
+                <div class="login-register-section">
+                    <div class="help-register-section">
+                        <ul>
+                            <li><a href="javascript:void(0);">Help</a></li>
+                            <li class="responsive-show-menu"><a href="javascript:void(0);">login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                        </ul>
+                    </div>
+                    <div class="login-form-seciton">
+                        <a href="javascript:void(0)" class="closebtnlogin">&times;</a>
+                        <div class="login-head-seciton">
+                            Login
+                        </div>
+                        <div class="form-group">
+                            <div class="group-form-group">
+                                <input type="text" name="user name" placeholder="User Name" class="form-control" />
+                            </div>
+                            <div class="check-box">                            
+                                <input id="filled-in-box" class="filled-in" type="checkbox">
+                                <label for="filled-in-box">Remember Me</label>                            
+                            </div>                            
+                        </div>
+                        <div class="form-group">
+                            <div class="group-form-group">
+                                <input type="password" name="Password" placeholder="Password" class="form-control" />
+                            </div>
+                            <div class="forgot">
+                                <a href="javascript:void(0);">Forgot Password?</a>
+                            </div>  
+                        </div>
+                        <div class="form-group login-form-btn-seciton">
+                            <button type="submit" class="login-form-btn">Login</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <div class="container-change-section">
+            <ul class="mySidenav-section" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn">&times;</a>
+                <li class="responsive-show-section">
+                    <img src="images/logo.png" alt="" />
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Register</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Advertise</a>
+                </li>
+                <li>
+                    <a href="login.html">What's New?</a>
+                </li>                
+            </ul>
+            <span class="menu-icon" onclick="openNav()">&#9776;</span>
+<!--
+            <div class="advance-search-section-main">
+                <div class="advance-search-label-section">
+                    Advanced Search
+                </div>
+                <div class="advance-search-input-section">
+                    <input type="text" name="search" placeholder="Search your product" />
+                    <button type="submit"><img src="images/searcg-icon.png" alt="" /></button>
+                </div>
+                <div class="forum-buttom-section">
+                    <a href="javascript:void(0);">Forum</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+-->
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="middle-section-gray regiater-page-middle">
+        <div class="container">
+            <div class="login-page">                    
+                <div class="login">Register
+                    <div class="login-line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="input-box-right">
+                            <div class="input-name">First Name</div>
+                            <input type="text" name="email" placeholder="First Name">
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="input-box-right">
+                            <div class="input-name">Last Name</div>
+                            <input type="text" name="email" placeholder="Last Name">
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>                                
+                <div class="input-box-right">
+                    <div class="input-name">Email</div>
+                    <input type="text" name="email" placeholder="alexandraba@gmail.com">
+                    <span class="bar"></span>
+                </div>
+                <div class="input-box-right">
+                    <div class="input-name">Username</div>
+                    <input type="text" name="email" placeholder="Last Name">
+                    <span class="bar"></span>
+                </div>
+                <div class="input-box-right">
+                    <div class="input-name password">Password</div>
+                    <input type="password" name="email" placeholder="Password">
+                    <span class="bar"></span>
+                </div>
+                <div class="input-box-right">
+                    <div class="input-name password">Confirm Password</div>
+                    <input type="password" name="email" placeholder="Confirm Password">
+                    <span class="bar"></span>
+                </div>
+                <div class="login-btn-box"><a class="login-btn" href="#">Register</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-seciton">
+        <div class="container-change-section">
+            <div class="footer-logo-seciton">
+                <img src="images/logo.png" alt="" />
+            </div>
+            <div class="footer-menu-section">
+                <ul>
+                    <li><a href="javascript:void(0)">Home</a></li>
+                    <li><a href="javascript:void(0)">Register</a></li>
+                    <li><a href="javascript:void(0)">Advertise</a></li>
+                    <li><a href="javascript:void(0)">What's New?</a></li>
+                    <li><a href="javascript:void(0)">Login</a></li>
+                </ul>
+            </div>
+            <div class="copyright-txt">
+                Copy Rights &copy; 2020 All Rights Reserved.
+            </div>
+        </div>
+    </div>  
+    
+    <script src="js/infiniteslidev2.js"></script>    
+    <script type="text/javascript">
+        $(function() {
+            $('.scroll1').infiniteslide({
+                speed: 30,
+            });
+        });
+    </script>
+    
+    <script>
+        $(".advance-search-label-section").on("click", function(){
+            $(".advance-search-section-main").toggleClass("searchactive");
+        });
+    </script>
+    
+    <script>
+        $(".responsive-show-menu").on("click", function(){
+            $("body").addClass("login-open");
+        });
+        $(".closebtnlogin").on("click", function(){
+            $("body").removeClass("login-open");
+        })
+    </script>
+    
+    <script>
+        $(".menu-icon").on("click", function(){
+            $("body").addClass("menu-active");
+        });
+        $(".closebtn").on("click", function(){
+            $("body").removeClass("menu-active");
+        })
+    </script>
+    
+    <script>
+        var doc_width = $(document).width();
+        if (doc_width < 768){
+            $(".ads-banners-row").addClass("scroll1");
+        }
+    </script>
+    
+</body>
+
+</html>

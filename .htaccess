@@ -1,0 +1,14 @@
+
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://soi66.com/$1 [R,L]
+<Files .env>
+   Order allow,deny
+   Deny from all
+</Files>
